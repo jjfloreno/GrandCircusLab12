@@ -8,6 +8,7 @@ namespace Lab12_RockPaperScissors
 {
     abstract class Player
     {
+        public string Name { get; set; }
 
         public abstract Roshambo generateRoshambo();
     }

@@ -72,7 +72,7 @@ namespace Lab12_RockPaperScissors
             else if (input == Roshambo.paper)
             {
                 //paper beats rock, human +1
-                Console.WriteLine("human wins!");
+                Console.WriteLine($"{HumanPlayer.Name} wins!");
                 PlayerScore++;
             }
             else
@@ -104,7 +104,7 @@ namespace Lab12_RockPaperScissors
                 || (input == Roshambo.scissor && aiInput == Roshambo.paper))
             {
                 //paper beats rock, human +1
-                Console.WriteLine("human wins!");
+                Console.WriteLine($"{HumanPlayer.Name} wins!");
                 PlayerScore++;
             }
             else

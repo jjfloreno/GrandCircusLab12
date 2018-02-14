@@ -8,7 +8,11 @@ namespace Lab12_RockPaperScissors
 {
     class HumanPlayer : Player
     {
-        public string Name { get; set; }
+        public void NewPlayerName(string playerName)
+        {
+            Name = playerName;
+        }
+
         public override Roshambo generateRoshambo()
         {
           
